@@ -1620,7 +1620,6 @@ const Input = (e) => {
                     (window.innerWidth > 767 &&
                         window.screen.height - 100 < div.getBoundingClientRect().bottom &&
                         !popoverOnDown)) {
-                    div.classList.add("bottom-full");
                     div.classList.add("mb-2.5");
                     div.classList.remove("mt-2.5");
                     arrow.classList.add("-bottom-2");
@@ -1850,7 +1849,6 @@ const Datepicker = ({ primaryColor = "blue", value = null, onChange, useRange = 
             div.classList.add("translate-y-4");
             div.classList.add("opacity-0");
             setTimeout(() => {
-                div.classList.remove("bottom-full");
                 div.classList.add("hidden");
                 div.classList.add("mb-2.5");
                 div.classList.add("mt-2.5");
