@@ -80,7 +80,6 @@ const Datepicker: React.FC<DatepickerType> = ({
             div.classList.add("translate-y-4");
             div.classList.add("opacity-0");
             setTimeout(() => {
-                div.classList.remove("bottom-full");
                 div.classList.add("hidden");
                 div.classList.add("mb-2.5");
                 div.classList.add("mt-2.5");

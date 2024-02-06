@@ -235,7 +235,6 @@ const Input: React.FC<Props> = (e: Props) => {
                         window.screen.height - 100 < div.getBoundingClientRect().bottom &&
                         !popoverOnDown)
                 ) {
-                    div.classList.add("bottom-full");
                     div.classList.add("mb-2.5");
                     div.classList.remove("mt-2.5");
                     arrow.classList.add("-bottom-2");
